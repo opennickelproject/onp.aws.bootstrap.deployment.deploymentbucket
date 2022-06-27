@@ -1,0 +1,24 @@
+metadata:
+  pattern-name: deployment-bucket
+  pattern-owner: Nickel Cloud
+  pattern-owner-shortname: nc
+  pattern-status: draft
+  organisation: Nickel Cloud
+
+create:
+  commands:
+    - bash lifecycle/create.sh
+
+delete:
+  commands:
+    - bash lifecycle/delete.sh
+
+update:
+  commands:
+    - bash lifecycle/update.sh
+
+upgrade:
+  commands:
+    - bash lifecycle/upgrade.sh
+
+
