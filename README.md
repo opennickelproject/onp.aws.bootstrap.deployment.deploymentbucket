@@ -1,3 +1,3 @@
 # onp.aws.bootstrap.deployment.deplymentbucket
 
-@@include[documentation.md](docs/documentation.md)
+[The detailed documentation](docs/documentation.md)

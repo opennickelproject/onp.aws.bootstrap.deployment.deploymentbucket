@@ -43,3 +43,14 @@ Resources:
         IgnorePublicAcls: true
         RestrictPublicBuckets: true
     DependsOn: BucketCMK
+
+  DeploymentBucketSSMParam:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: onp/bootstrap/deploymentbucket
+      Type: String
+      Value: !Ref DeploymentBucket
+      Description: Name of the deployment bucket
+      Tags:
+        source: onp
+        onp-category: bootstrap
