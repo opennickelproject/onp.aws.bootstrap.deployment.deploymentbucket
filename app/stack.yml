@@ -51,6 +51,3 @@ Resources:
       Type: String
       Value: !Ref DeploymentBucket
       Description: Name of the deployment bucket
-      Tags:
-        source: onp
-        onp-category: bootstrap
