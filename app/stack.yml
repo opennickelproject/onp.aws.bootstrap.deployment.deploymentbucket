@@ -47,7 +47,7 @@ Resources:
   DeploymentBucketSSMParam:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: onp/bootstrap/deploymentbucket
+      Name: deploymentbucket
       Type: String
       Value: !Ref DeploymentBucket
       Description: Name of the deployment bucket
