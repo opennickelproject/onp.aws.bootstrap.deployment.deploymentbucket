@@ -42,6 +42,11 @@ Resources:
         BlockPublicPolicy: true
         IgnorePublicAcls: true
         RestrictPublicBuckets: true
+      LifecycleConfiguration:
+        Rules:
+          - Id: ExpiryRule
+            Status: Enabled
+            ExpirationInDays: 21
     DependsOn: BucketCMK
 
   DeploymentBucketSSMParam:
