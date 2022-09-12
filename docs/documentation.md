@@ -6,7 +6,7 @@
 | pattern-id              | onp.aws.bootstrap.deployment.deploymentbucket |
 | pattern-name            | deployment-bucket                             |
 | pattern-description     | This pattern is used as a temporary storage for the deployment material. Common use cases include storing Cloudformation stacks which are ready to be deployed and storing compressed code artifacts used for lambda based deployments.                                                              |
-| pattern-version         | 1.0.0                                         |
+| pattern-version         | 1.0.1                                         |
 | pattern-owner           | Nickel Cloud                                  |
 | pattern-owner-shortname | nc                                            |
 | pattern-status          | draft                                         |
