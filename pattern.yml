@@ -25,7 +25,9 @@ lifecycle:
       - bash lifecycle/upgrade.sh
 
 dependencies:
-  - pattern-id: onp.aws.bootstrap.deployment.deploymentbucket
-    version: 1.0.3
+  - pattern-id: onp.aws.bootstrap.deployment.samplepattern1
+    version: 1.0.0
+  - pattern-id: onp.aws.bootstrap.deployment.samplePattern2
+    version: 1.0.1
 
 
