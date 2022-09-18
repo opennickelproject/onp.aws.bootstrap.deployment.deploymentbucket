@@ -1,11 +1,9 @@
 metadata:
   pattern-id: onp.aws.bootstrap.deployment.deploymentbucket
   pattern-name: deployment-bucket
-  latest-version: 1.0.1
-  pattern-owner: Nickel Cloud
-  pattern-owner-shortname: nc
+  latest-version: 1.0.0
   pattern-status: draft
-  organisation: Nickel Cloud
+  organisation-id: nc
   pattern-category: bootstrap
 
 lifecycle:
