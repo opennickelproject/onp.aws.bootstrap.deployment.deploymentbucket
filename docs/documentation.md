@@ -5,7 +5,7 @@
 | ----------------------- | --------------------------------------------- |
 | pattern-id              | onp.aws.bootstrap.deployment.deploymentbucket |
 | pattern-name            | deployment-bucket                             |
-| latest-version          | 1.0.0                                         |
+| pattern-version          | 1.0.0                                         |
 | pattern-owner           | Nickel Cloud                                  |
 | pattern-owner-shortname | nc                                            |
 | pattern-status          | draft                                         |
